@@ -14,6 +14,7 @@ const io = new Server(server, {
     cors: {
         origin: "https://twitter-roulette.herokuapp.com/",
         methods: ["GET", "POST"],
+        credentials: true,
     },
 });
 
